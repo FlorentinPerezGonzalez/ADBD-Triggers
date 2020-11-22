@@ -39,6 +39,10 @@ BEGIN
 END
 ```
 
+<p align="center">
+<img src="./img/Persona_Piso.PNG">
+</p>
+
 Y por último, el trigger aplicado sobre **Persona_Vivienda**.
 
 ```sql
@@ -50,6 +54,10 @@ BEGIN
     END IF;
 END
 ```
+
+<p align="center">
+<img src="./img/Persona_Vivienda.PNG">
+</p>
 
 ---
 
@@ -74,6 +82,10 @@ BEGIN
 END
 ```
 
+<p align="center">
+<img src="./img/Producto_Pedido.PNG">
+</p>
+
 En última instancia, el trigger aplicado sobre la tabla **Zona_Producto**.
 
 ```sql
@@ -91,3 +103,7 @@ BEGIN
     WHERE Productos.CódigoBarras = NEW.CódigoBarras;
 END
 ```
+
+<p align="center">
+<img src="./img/Zona_Producto.PNG">
+</p>
